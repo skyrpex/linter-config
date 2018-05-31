@@ -1,0 +1,18 @@
+{
+    "name": "@skyrpex/eslint-config-jest",
+    "version": "0.0.0",
+    "dependencies": {
+        "@skyrpex/eslint-config-base": "^0.0.0",
+        "eslint-plugin-jest": "^21.17.0"
+    },
+    "description": "ESLint Shareable Config for Jest",
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Cristian Pallarés <cristian@pallares.io>",
+    "license": "MIT",
+    "repository": "https://github.com/skyrpex/eslint-config/tree/master/packages/jest",
+    "engines": {
+        "node": ">=6.9.0"
+    }
+}

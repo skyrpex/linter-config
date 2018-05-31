@@ -1,0 +1,27 @@
+{
+    "name": "@skyrpex/eslint-config-base",
+    "version": "0.0.0",
+    "dependencies": {
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-config-standard": "^11.0.0",
+        "eslint-plugin-import": "^2.12.0",
+        "eslint-plugin-node": "^6.0.1",
+        "eslint-plugin-prettier": "^2.6.0",
+        "eslint-plugin-promise": "^3.8.0",
+        "eslint-plugin-standard": "^3.1.0",
+        "prettier": "^1.13.3"
+    },
+    "peerDependencies": {
+        "eslint": "^4.0.0"
+    },
+    "description": "ESLint Shareable Config for JavaScript",
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Cristian Pallarés <cristian@pallares.io>",
+    "license": "MIT",
+    "repository": "https://github.com/skyrpex/eslint-config/tree/master/packages/base",
+    "engines": {
+        "node": ">=6.9.0"
+    }
+}

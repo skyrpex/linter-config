@@ -1,0 +1,20 @@
+{
+    "name": "@skyrpex/eslint-config-vue",
+    "version": "0.0.0",
+    "dependencies": {
+        "@skyrpex/eslint-config-base": "^0.0.0",
+        "babel-eslint": "^8.2.3",
+        "eslint-plugin-vue": "^4.5.0",
+        "vue-eslint-parser": "^2.0.3"
+    },
+    "description": "ESLint Shareable Config for Vue",
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Cristian Pallarés <cristian@pallares.io>",
+    "license": "MIT",
+    "repository": "https://github.com/skyrpex/eslint-config/tree/master/packages/vue",
+    "engines": {
+        "node": ">=6.9.0"
+    }
+}

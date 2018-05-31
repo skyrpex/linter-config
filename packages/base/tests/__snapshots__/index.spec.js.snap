@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should report missing trailing slash 1`] = `
+Object {
+  "errorCount": 1,
+  "fixableErrorCount": 1,
+  "fixableWarningCount": 0,
+  "results": Array [
+    Object {
+      "errorCount": 1,
+      "filePath": "tests/fixtures/missing-trailing-slash.fixture.js",
+      "fixableErrorCount": 1,
+      "fixableWarningCount": 0,
+      "messages": Array [
+        Object {
+          "column": 27,
+          "endColumn": 27,
+          "endLine": 6,
+          "fix": Object {
+            "range": Array [
+              148,
+              148,
+            ],
+            "text": ",",
+          },
+          "line": 6,
+          "message": "Insert \`,\`",
+          "nodeType": null,
+          "ruleId": "prettier/prettier",
+          "severity": 2,
+          "source": "    testVeryLongMethodName",
+        },
+      ],
+      "source": "const testVeryLongMethodName = () => {};
+
+testVeryLongMethodName(
+    testVeryLongMethodName,
+    testVeryLongMethodName,
+    testVeryLongMethodName
+);
+",
+      "warningCount": 0,
+    },
+  ],
+  "warningCount": 0,
+}
+`;
