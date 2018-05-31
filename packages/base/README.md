@@ -1,11 +1,11 @@
 # @skyrpex/eslint-config-base
 
-> ESLint Shareable Config for Flow
+> ESLint Shareable Config for JavaScript
 
 ## Installation
 
 ```bash
-npm install @skyrpex/eslint-config-flow -D
+npm install @skyrpex/eslint-config-base -D
 ```
 
 ## Usage
@@ -14,6 +14,6 @@ Add this to your `.eslintrc` file:
 
 ```json
 {
-    "extends": ["@skyrpex/flow"]
+    "extends": ["@skyrpex/base"]
 }
 ```
