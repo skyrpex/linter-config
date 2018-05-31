@@ -13,3 +13,9 @@ npx lerna bootstrap
 npx jest
 # npx jest --watch
 ```
+
+## Publish
+
+```bash
+npx lerna publish
+```
