@@ -1,0 +1,24 @@
+{
+    "name": "@skyrpex/eslint-config-typescript",
+    "version": "1.0.0-1",
+    "dependencies": {
+        "@skyrpex/eslint-config-base": "^1.0.0-1",
+        "typescript-eslint-parser": "^16.0.0"
+    },
+    "devDependencies": {
+        "typescript": "^2.9.1"
+    },
+    "peerDependencies": {
+        "typescript": "^2.9.1"
+    },
+    "description": "ESLint Shareable Config for TypeScript",
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Cristian Pallarés <cristian@pallares.io>",
+    "license": "MIT",
+    "repository": "https://github.com/skyrpex/eslint-config/tree/master/packages/typescript",
+    "engines": {
+        "node": ">=6.9.0"
+    }
+}

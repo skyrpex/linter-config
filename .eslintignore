@@ -1,5 +1,3 @@
 node_modules/
-*.fixture.vue
-*.fixture.jsx
-*.fixture.js
+*.fixture.*
 !.eslintrc.js
