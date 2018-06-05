@@ -3,7 +3,7 @@
     "version": "1.0.0-2",
     "dependencies": {
         "@skyrpex/eslint-config-base": "^1.0.0-2",
-        "typescript-eslint-parser": "^16.0.0"
+        "babel-eslint": "^8.2.3"
     },
     "devDependencies": {
         "typescript": "^2.9.1"
