@@ -1,8 +1,8 @@
 {
     "name": "@skyrpex/eslint-config-flow",
-    "version": "1.0.0-2",
+    "version": "1.0.0-3",
     "dependencies": {
-        "@skyrpex/eslint-config-base": "^1.0.0-2",
+        "@skyrpex/eslint-config-base": "^1.0.0-3",
         "babel-eslint": "^8.2.3",
         "eslint-plugin-flowtype-errors": "^3.6.0",
         "eslint-plugin-jest": "^21.17.0",
