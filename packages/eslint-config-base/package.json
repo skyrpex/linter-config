@@ -20,7 +20,7 @@
     },
     "author": "Cristian Pallarés <cristian@pallares.io>",
     "license": "MIT",
-    "repository": "https://github.com/skyrpex/eslint-config/tree/master/packages/base",
+    "repository": "https://github.com/skyrpex/eslint-config/tree/master/packages/eslint-config-base",
     "engines": {
         "node": ">=6.9.0"
     }

@@ -11,7 +11,7 @@
     },
     "author": "Cristian Pallarés <cristian@pallares.io>",
     "license": "MIT",
-    "repository": "https://github.com/skyrpex/eslint-config/tree/master/packages/jest",
+    "repository": "https://github.com/skyrpex/eslint-config/tree/master/packages/eslint-config-jest",
     "engines": {
         "node": ">=6.9.0"
     }
