@@ -5,7 +5,11 @@
         "@skyrpex/eslint-config-base": "^1.0.0-3",
         "tslint-config-prettier": "^1.13.0",
         "tslint-config-standard": "^7.0.0",
-        "tslint-plugin-prettier": "^1.3.0"
+        "tslint-plugin-prettier": "^1.3.0",
+        "prettier": "^1.13.4"
+    },
+    "peerDependencies": {
+        "tslint": "^5.0.0"
     },
     "description": "TSLint Shareable Config for TypeScript",
     "publishConfig": {
@@ -16,10 +20,5 @@
     "repository": "https://github.com/skyrpex/eslint-config/tree/master/packages/tslint-config-base",
     "engines": {
         "node": ">=6.9.0"
-    },
-    "devDependencies": {
-        "prettier": "^1.13.4",
-        "tslint": "^5.10.0",
-        "typescript": "^2.9.1"
     }
 }
