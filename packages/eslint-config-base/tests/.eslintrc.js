@@ -1,3 +1,3 @@
 module.exports = {
-    extends: ["../../jest/index.js"],
+    extends: ["@skyrpex/jest"],
 };
