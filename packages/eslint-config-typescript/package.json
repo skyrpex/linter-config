@@ -14,7 +14,7 @@
     },
     "author": "Cristian Pallarés <cristian@pallares.io>",
     "license": "MIT",
-    "repository": "https://github.com/skyrpex/eslint-config/tree/master/packages/eslint-config-typescript",
+    "repository": "https://github.com/skyrpex/linter-config/tree/master/packages/eslint-config-typescript",
     "engines": {
         "node": ">=6.9.0"
     }
