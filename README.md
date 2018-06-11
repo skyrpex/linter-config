@@ -1,4 +1,4 @@
-# Skyrpex - Eslint Config Monorepo
+# Skyrpex - Linter Config Monorepo
 
 ## Development
 
