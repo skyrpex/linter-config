@@ -1,8 +1,8 @@
 {
     "name": "@skyrpex/eslint-config-jest",
-    "version": "1.0.0-3",
+    "version": "1.0.0-4",
     "dependencies": {
-        "@skyrpex/eslint-config-base": "^1.0.0-3",
+        "@skyrpex/eslint-config-base": "^1.0.0-4",
         "eslint-plugin-jest": "^21.17.0"
     },
     "description": "ESLint Shareable Config for Jest",
