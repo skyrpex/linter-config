@@ -3,9 +3,9 @@
     "version": "1.0.0-4",
     "dependencies": {
         "@skyrpex/eslint-config-base": "^1.0.0-4",
-        "babel-eslint": "^8.2.3",
+        "babel-eslint": "^8.2.5",
         "eslint-plugin-vue": "^4.5.0",
-        "vue-eslint-parser": "^2.0.3"
+        "vue-eslint-parser": "^3.1.0"
     },
     "description": "ESLint Shareable Config for Vue",
     "publishConfig": {
