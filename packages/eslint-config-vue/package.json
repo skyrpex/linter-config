@@ -1,8 +1,8 @@
 {
     "name": "@skyrpex/eslint-config-vue",
-    "version": "1.0.0",
+    "version": "2.0.0-dev.0",
     "dependencies": {
-        "@skyrpex/eslint-config-base": "^1.0.0",
+        "@skyrpex/eslint-config-base": "^2.0.0-dev.0",
         "babel-eslint": "^9.0.0-beta.2",
         "eslint-plugin-vue": "^4.5.0",
         "vue-eslint-parser": "^3.1.0"
