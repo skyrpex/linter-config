@@ -9,12 +9,25 @@ yarn
 ## Tests
 
 ```bash
-yarn jest
-# yarn jest --watch
+jest
+```
+
+```bash
+jest --watch
 ```
 
 ## Publish
 
 ```bash
-yarn lerna publish
+lerna publish
+```
+
+## Check updates
+
+```bash
+ncu && lerna exec ncu
+```
+
+```bash
+ncu -a && lerna exec ncu -a
 ```
