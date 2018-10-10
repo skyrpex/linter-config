@@ -1,20 +1,23 @@
 {
-    "name": "@skyrpex/eslint-config-vue",
-    "version": "2.0.0-dev.0",
-    "dependencies": {
-        "@skyrpex/eslint-config-base": "^2.0.0-dev.0",
-        "babel-eslint": "^9.0.0-beta.2",
-        "eslint-plugin-vue": "^4.5.0",
-        "vue-eslint-parser": "^3.1.0"
-    },
-    "description": "ESLint Shareable Config for Vue",
-    "publishConfig": {
-        "access": "public"
-    },
-    "author": "Cristian Pallarés <cristian@pallares.io>",
-    "license": "MIT",
-    "repository": "https://github.com/skyrpex/linter-config/tree/master/packages/eslint-config-vue",
-    "engines": {
-        "node": ">=6.9.0"
-    }
+  "name": "@skyrpex/eslint-config-vue",
+  "version": "2.0.0-dev.0",
+  "dependencies": {
+    "@skyrpex/eslint-config-base": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-vue": "^5.0.0-beta.3",
+    "vue-eslint-parser": "^3.1.0"
+  },
+"peerDependencies": {
+    "eslint": "^5.0.0"
+},
+  "description": "ESLint Shareable Config for Vue",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Cristian Pallarés <cristian@pallares.io>",
+  "license": "MIT",
+  "repository": "https://github.com/skyrpex/linter-config/tree/master/packages/eslint-config-vue",
+  "engines": {
+    "node": ">=6.9.0"
+  }
 }
