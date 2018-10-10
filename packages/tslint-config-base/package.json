@@ -1,8 +1,8 @@
 {
     "name": "@skyrpex/tslint-config-base",
-    "version": "2.0.0-dev.0",
+    "version": "2.0.0-dev.1",
     "dependencies": {
-        "@skyrpex/eslint-config-base": "^2.0.0-dev.0",
+        "@skyrpex/eslint-config-base": "^2.0.0-dev.1",
         "prettier": "^1.13.7",
         "tslint-config-prettier": "^1.13.0",
         "tslint-config-standard": "^8.0.1",

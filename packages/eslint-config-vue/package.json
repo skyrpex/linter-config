@@ -1,15 +1,15 @@
 {
   "name": "@skyrpex/eslint-config-vue",
-  "version": "2.0.0-dev.0",
+  "version": "2.0.0-dev.1",
   "dependencies": {
     "@skyrpex/eslint-config-base": "^1.0.0",
     "babel-eslint": "^10.0.1",
     "eslint-plugin-vue": "^5.0.0-beta.3",
     "vue-eslint-parser": "^3.1.0"
   },
-"peerDependencies": {
+  "peerDependencies": {
     "eslint": "^5.0.0"
-},
+  },
   "description": "ESLint Shareable Config for Vue",
   "publishConfig": {
     "access": "public"
