@@ -2,10 +2,10 @@
 
 exports[`xxx 1`] = `
 "
-ERROR: packages/tslint-config-base/tests/index.fixture.ts[2, 22]: Insert \`;\`
-ERROR: packages/tslint-config-base/tests/index.fixture.ts[8, 27]: Insert \`,\`
-ERROR: packages/tslint-config-base/tests/index.fixture.ts[12, 1]: Insert \`····\`
-ERROR: packages/tslint-config-base/tests/index.fixture.ts[15, 20]: Insert \`;\`
+ERROR: packages/tslint-config-base/tests/index.fixture.ts:2:22 - Insert \`;\`
+ERROR: packages/tslint-config-base/tests/index.fixture.ts:8:27 - Insert \`,\`
+ERROR: packages/tslint-config-base/tests/index.fixture.ts:12:1 - Insert \`····\`
+ERROR: packages/tslint-config-base/tests/index.fixture.ts:15:20 - Insert \`;\`
 
 "
 `;

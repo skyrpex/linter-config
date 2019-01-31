@@ -1,7 +1,5 @@
 <template>
-    <div :css="cssClasses">
-        Hello {{ name }}
-    </div>
+    <div :css="cssClasses">Hello {{ name }}</div>
 </template>
 
 <script>
