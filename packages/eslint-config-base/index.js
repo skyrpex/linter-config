@@ -23,5 +23,9 @@ module.exports = {
                 tabWidth: tabWidth,
             },
         ],
+        // The rule no-unsafe-negation is deprecated, so
+        // we disable it and enable no-negated-in-lhs instead.
+        "no-unsafe-negation": 0,
+        "no-negated-in-lhs": "error",
     },
 };

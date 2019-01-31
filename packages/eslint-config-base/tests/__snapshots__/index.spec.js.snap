@@ -41,6 +41,7 @@ testVeryLongMethodName(
       "warningCount": 0,
     },
   ],
+  "usedDeprecatedRules": Array [],
   "warningCount": 0,
 }
 `;
