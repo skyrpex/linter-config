@@ -15,7 +15,6 @@ module.exports = {
         },
     },
     rules: {
-        "no-return-await": 0,
         "prettier/prettier": [
             "error",
             {
@@ -23,9 +22,9 @@ module.exports = {
                 tabWidth: tabWidth,
             },
         ],
-        // The rule no-unsafe-negation is deprecated, so
-        // we disable it and enable no-negated-in-lhs instead.
-        "no-unsafe-negation": 0,
-        "no-negated-in-lhs": "error",
+        // The rule no-negated-in-lhs is deprecated, so
+        // we enable no-unsafe-negation instead.
+        "no-negated-in-lhs": 0,
+        "no-unsafe-negation": "error",
     },
 };
