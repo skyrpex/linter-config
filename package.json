@@ -1,14 +1,15 @@
 {
     "private": true,
-    "scripts": {
-        "postinstall": "lerna bootstrap --hoist"
-    },
     "devDependencies": {
-        "eslint": "^5.1.0",
-        "jest": "^23.1.0",
-        "lerna": "^3.4.3",
-        "npm-check-updates": "^2.14.2",
-        "tslint": "^5.10.0",
-        "typescript": "^3.1.2"
-    }
+        "@skyrpex/eslint-config-base": "file:packages/eslint-config-base",
+        "@skyrpex/eslint-config-jest": "file:packages/eslint-config-jest",
+        "@skyrpex/eslint-config-vue": "file:packages/eslint-config-vue",
+        "@skyrpex/tslint-config-base": "file:packages/tslint-config-base",
+        "eslint": "^5.12.1",
+        "jest": "^24.0.0",
+        "lerna": "^3.10.7",
+        "tslint": "^5.12.1",
+        "typescript": "^3.2.4"
+    },
+    "name": "eslint-config"
 }

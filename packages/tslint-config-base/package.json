@@ -2,11 +2,11 @@
     "name": "@skyrpex/tslint-config-base",
     "version": "2.0.0-dev.1",
     "dependencies": {
-        "@skyrpex/eslint-config-base": "^2.0.0-dev.1",
-        "prettier": "^1.13.7",
-        "tslint-config-prettier": "^1.13.0",
+        "@skyrpex/eslint-config-base": "file:../eslint-config-base",
+        "prettier": "^1.16.3",
+        "tslint-config-prettier": "^1.17.0",
         "tslint-config-standard": "^8.0.1",
-        "tslint-plugin-prettier": "^2.0.0"
+        "tslint-plugin-prettier": "^2.0.1"
     },
     "peerDependencies": {
         "tslint": "^5.0.0"
