@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`xxx 1`] = `
+exports[`should report TypeScript errors 1`] = `
 "
 ERROR: packages/tslint-config-base/tests/index.fixture.ts:2:22 - Insert \`;\`
 ERROR: packages/tslint-config-base/tests/index.fixture.ts:8:27 - Insert \`,\`
