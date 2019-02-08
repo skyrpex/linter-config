@@ -1,5 +1,7 @@
 # Skyrpex - Linter Config Monorepo
 
+[![Build Status](https://travis-ci.org/skyrpex/linter-config.svg?branch=master)](https://travis-ci.org/skyrpex/linter-config)
+
 ## Development
 
 ```bash
