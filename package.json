@@ -1,5 +1,8 @@
 {
     "private": true,
+    "scripts": {
+        "test": "eslint . && jest"
+    },
     "devDependencies": {
         "@skyrpex/eslint-config-base": "file:packages/eslint-config-base",
         "@skyrpex/eslint-config-jest": "file:packages/eslint-config-jest",
