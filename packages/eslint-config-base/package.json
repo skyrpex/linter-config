@@ -1,6 +1,6 @@
 {
     "name": "@skyrpex/eslint-config-base",
-    "version": "2.0.0-dev.1",
+    "version": "2.0.0-dev.2",
     "dependencies": {
         "eslint-config-prettier": "^4.0.0",
         "eslint-config-standard": "^12.0.0",
