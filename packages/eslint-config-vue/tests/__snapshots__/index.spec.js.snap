@@ -15,6 +15,7 @@ Object {
       "warningCount": 0,
     },
   ],
+  "usedDeprecatedRules": Array [],
   "warningCount": 0,
 }
 `;
@@ -24,7 +25,17 @@ Object {
   "errorCount": 0,
   "fixableErrorCount": 0,
   "fixableWarningCount": 0,
-  "results": Array [],
+  "results": Array [
+    Object {
+      "errorCount": 0,
+      "filePath": "tests/fixtures/component.fixture.vue",
+      "fixableErrorCount": 0,
+      "fixableWarningCount": 0,
+      "messages": Array [],
+      "warningCount": 0,
+    },
+  ],
+  "usedDeprecatedRules": Array [],
   "warningCount": 0,
 }
 `;

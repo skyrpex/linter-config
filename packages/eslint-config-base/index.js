@@ -7,16 +7,14 @@ module.exports = {
         es6: true,
     },
     parserOptions: {
-        ecmaVersion: 2017,
+        ecmaVersion: 2018,
         sourceType: "module",
         ecmaFeatures: {
-            experimentalObjectRestSpread: true,
             impliedStrict: true,
             jsx: true,
         },
     },
     rules: {
-        "no-return-await": 0,
         "prettier/prettier": [
             "error",
             {
@@ -24,5 +22,9 @@ module.exports = {
                 tabWidth: tabWidth,
             },
         ],
+        // The rule no-negated-in-lhs is deprecated, so
+        // we enable no-unsafe-negation instead.
+        "no-negated-in-lhs": 0,
+        "no-unsafe-negation": "error",
     },
 };

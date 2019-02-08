@@ -26,6 +26,7 @@ lerna publish
 
 ```bash
 ncu && lerna exec ncu
+# ncu -n && lerna exec -- ncu -n
 ```
 
 ```bash

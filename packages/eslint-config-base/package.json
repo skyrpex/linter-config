@@ -1,18 +1,18 @@
 {
     "name": "@skyrpex/eslint-config-base",
-    "version": "1.0.0",
+    "version": "2.0.0-dev.1",
     "dependencies": {
-        "eslint-config-prettier": "^2.9.0",
-        "eslint-config-standard": "^11.0.0",
-        "eslint-plugin-import": "^2.13.0",
-        "eslint-plugin-node": "^6.0.1",
-        "eslint-plugin-prettier": "^2.6.2",
-        "eslint-plugin-promise": "^3.8.0",
-        "eslint-plugin-standard": "^3.1.0",
-        "prettier": "^1.13.7"
+        "eslint-config-prettier": "^4.0.0",
+        "eslint-config-standard": "^12.0.0",
+        "eslint-plugin-import": "^2.16.0",
+        "eslint-plugin-node": "^8.0.1",
+        "eslint-plugin-prettier": "^3.0.1",
+        "eslint-plugin-promise": "^4.0.1",
+        "eslint-plugin-standard": "^4.0.0",
+        "prettier": "^1.16.3"
     },
     "peerDependencies": {
-        "eslint": "^4.0.0"
+        "eslint": "^5.0.0"
     },
     "description": "ESLint Shareable Config for JavaScript",
     "publishConfig": {

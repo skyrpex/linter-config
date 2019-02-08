@@ -1,9 +1,9 @@
 const { resolve } = require("path");
-const { spawnSync } = require("child_process");
+const { spawnNpmSync } = require("../../../tests/utils");
 
-test("xxx", () => {
+test("should report TypeScript errors", () => {
     expect(
-        spawnSync("tslint", [
+        spawnNpmSync("tslint", [
             resolve(__dirname, "index.fixture.ts"),
         ]).stdout.toString(),
     ).toMatchSnapshot();

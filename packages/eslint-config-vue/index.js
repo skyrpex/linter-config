@@ -1,7 +1,7 @@
 const { tabWidth } = require("@skyrpex/eslint-config-base/constants");
 
 module.exports = {
-    extends: ["@skyrpex/base", "plugin:vue/recommended"],
+    extends: ["@skyrpex/base", "plugin:vue/recommended", "prettier/vue"],
     plugins: ["vue"],
     parserOptions: {
         parser: "babel-eslint",

@@ -28,7 +28,6 @@ Object {
           "nodeType": null,
           "ruleId": "prettier/prettier",
           "severity": 2,
-          "source": "    testVeryLongMethodName",
         },
       ],
       "source": "const testVeryLongMethodName = () => {};
@@ -42,6 +41,7 @@ testVeryLongMethodName(
       "warningCount": 0,
     },
   ],
+  "usedDeprecatedRules": Array [],
   "warningCount": 0,
 }
 `;

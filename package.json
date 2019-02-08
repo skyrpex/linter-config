@@ -1,14 +1,19 @@
 {
     "private": true,
-    "workspaces": [
-        "packages/*"
-    ],
-    "dependencies": {
-        "eslint": "^4.19.1",
-        "jest": "^23.1.0",
-        "lerna": "^2.11.0",
-        "npm-check-updates": "^2.14.2",
-        "tslint": "^5.10.0",
-        "typescript": "^2.9.1"
-    }
+    "scripts": {
+        "test": "eslint . && jest"
+    },
+    "devDependencies": {
+        "@skyrpex/eslint-config-base": "file:packages/eslint-config-base",
+        "@skyrpex/eslint-config-jest": "file:packages/eslint-config-jest",
+        "@skyrpex/eslint-config-vue": "file:packages/eslint-config-vue",
+        "@skyrpex/tslint-config-base": "file:packages/tslint-config-base",
+        "eslint": "^5.12.1",
+        "jest": "^24.0.0",
+        "lerna": "^3.10.7",
+        "npm-which": "^3.0.1",
+        "tslint": "^5.12.1",
+        "typescript": "^3.2.4"
+    },
+    "name": "eslint-config"
 }
