@@ -1,4 +1,4 @@
-const { tabWidth } = require("./constants");
+const prettier = require("./prettier");
 
 module.exports = {
     extends: ["standard", "prettier", "prettier/standard"],
@@ -15,13 +15,7 @@ module.exports = {
         },
     },
     rules: {
-        "prettier/prettier": [
-            "error",
-            {
-                trailingComma: "all",
-                tabWidth: tabWidth,
-            },
-        ],
+        "prettier/prettier": ["error", prettier],
         // The rule no-negated-in-lhs is deprecated, so
         // we enable no-unsafe-negation instead.
         "no-negated-in-lhs": 0,
