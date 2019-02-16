@@ -3,7 +3,7 @@
     "version": "2.0.0-dev.2",
     "dependencies": {
         "@skyrpex/eslint-config-base": "file:../eslint-config-base",
-        "eslint-plugin-jest": "^22.2.1"
+        "eslint-plugin-jest": "^22.3.0"
     },
     "description": "ESLint Shareable Config for Jest",
     "publishConfig": {

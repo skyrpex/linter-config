@@ -4,8 +4,8 @@
   "dependencies": {
     "@skyrpex/eslint-config-base": "file:../eslint-config-base",
     "babel-eslint": "^10.0.1",
-    "eslint-plugin-vue": "^5.1.0",
-    "vue-eslint-parser": "^5.0.0"
+    "eslint-plugin-vue": "^5.2.1",
+    "vue-eslint-parser": "^6.0.2"
   },
   "peerDependencies": {
     "eslint": "^5.0.0"
