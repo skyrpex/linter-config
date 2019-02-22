@@ -7,11 +7,13 @@
         "@skyrpex/eslint-config-base": "file:packages/eslint-config-base",
         "@skyrpex/eslint-config-jest": "file:packages/eslint-config-jest",
         "@skyrpex/eslint-config-vue": "file:packages/eslint-config-vue",
+        "@skyrpex/stylelint-config-base": "file:packages/stylelint-config-base",
         "@skyrpex/tslint-config-base": "file:packages/tslint-config-base",
         "eslint": "^5.14.0",
         "jest": "^24.1.0",
         "lerna": "^3.13.0",
         "npm-which": "^3.0.1",
+        "stylelint": "^9.10.1",
         "tslint": "^5.12.1",
         "typescript": "^3.3.3"
     },
